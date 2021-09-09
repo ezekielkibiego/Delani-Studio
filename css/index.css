@@ -8,3 +8,10 @@ body{
     text-align: center;
     
 }
+.page1 {
+    text-decoration-color: white;
+    color: white;
+}
+#mouse{
+    padding-bottom: 15px;
+}
