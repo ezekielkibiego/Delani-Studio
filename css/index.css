@@ -27,4 +27,11 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+#services-offered {
+    text-align: center;
+    color: white;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background-image: url("../assets/backgrounds/s_image.jpg");
+}
 
