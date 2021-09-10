@@ -50,3 +50,17 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#about h2{
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+#form{
+    padding-bottom: 50px;
+}
+.form-control{
+    background-color: transparent;
+    color: white;
+}
+#form ::placeholder{
+    color: white;
+}
