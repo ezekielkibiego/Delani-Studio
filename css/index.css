@@ -11,15 +11,20 @@ body{
     
 }
 .page1 {
-    padding-top: 15%;
-    padding-bottom: 11%;
+    padding-top: 16%;
+    padding-bottom: 12%;
 }
-#mouse{
+.mouse-click{
     padding-bottom: 1%;
     animation: bounce 2s infinite;
 }
 .page1 h1{
     font-size: 45px;
     font-weight: 30px;
+}
+#about-us{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: ;
 }
 
