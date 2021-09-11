@@ -7,6 +7,7 @@
     <link rel="stylesheet"href="css/bootstrap.min.css">
     <link rel="stylesheet"href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Roboto|Shadows+Into+Light|Yantramanav&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     
     <title>Delani Studio</title>
 </head>
@@ -41,7 +42,7 @@
         <h2>WHAT WE DO</h2>
         <div class="row pt-5">
           <div class="col-md-4">
-            <div class="design">
+            <div id="design-icon">
               <img src="assets/services_icons/design_icon.png" alt="design icon">
               <p>DESIGN</p>
             </div>
@@ -52,7 +53,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="development">
+            <div id="development-icon">
               <img src="assets/services_icons/dev_icon.png" alt="dev icon">
               <p>DEVELOPMENT</p>
             </div>
@@ -63,7 +64,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="product-mgt ">
+            <div id="product-icon">
               <img src="assets/services_icons/product_icon.png" alt="product icon">
               <p>PRODUCT MANAGEMENT</p>
             </div>
@@ -160,10 +161,10 @@
               <form id="form">
                   <div class="row g-3">
                     <div class="col">
-                      <input class="col-md-4 form-control name" type="text" id="name" placeholder="Name..." aria-label="name" value="name" required>
+                      <input class="col-md-4 form-control name" type="text" id="name" placeholder="Name... e.g Ezekiel Kibiego" aria-label="name" value="" required>
                     </div>
                     <div class="col">
-                     <input class="col-md-4 form-control email"type="text" id="email" placeholder="Email..." aria-label="email" value="email" required>
+                     <input class="col-md-4 form-control email"type="text" id="email" placeholder="Email... e.g name@gmail.com" aria-label="email" value="" required>
                       </div>
                     </div><br>
                   <div class="mb-sm-1">
@@ -192,8 +193,7 @@
         </div>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script.js"></script> 
 </body>
 </html>
 

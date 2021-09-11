@@ -80,3 +80,6 @@ body{
     width: 100%;
     height: auto;
 }
+#design, #development, #product{
+    display: none;
+}
