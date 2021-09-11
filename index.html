@@ -153,27 +153,31 @@
           </div>
         </div>
     </div>
-    <div class="container-full text-center" id="about">
-        <div>
-            <h2>Contact Us</h2>
-        </div>
-       <div class="container" id="form">
-        <form action="">
-          <div class="row g-3">
-              <div class="col">
-                <input type="text" class="form-control" placeholder="Name">
-              </div>
-              <div class="col">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-              </div>
+    <div class="container-full contact">
+      <div class="contact-overlay">
+          <h1 class="text-center text-white b-text">CONTACT US</h1><br>
+          <div class="container">
+            <div class="col-md-12 input">
+              <form id="form">
+                  <div class="row g-3">
+                    <div class="col">
+                      <input class="col-md-4 form-control name" type="text" id="name" placeholder="Name..." value="name" required aria-label="name">
+                    </div>
+                    <div class="col">
+                     <input class="col-md-4 form-control email"type="text" id="email" placeholder="Email..." aria-label="email" value="email" required>
+                      </div>
+                    </div><br>
+                  <div class="mb-sm-1">
+                      <textarea class="form-control col-md-8 text" rows="10" name="message" id="message" placeholder="Your message here..."></textarea>
+                  </div>
+                  <button class="btn btn-primary mx-auto d-block submit" id="okButton" type="submit">Submit</button>
+                  <br>
+              </form>
             </div>
-          <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label"></label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Your message here"></textarea>
           </div>
-         </form>
-       </div>
-    </div>
+        </div>
+      </div>
+  </div>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 pt-5 pb-5 text-center">
@@ -191,3 +195,4 @@
     </div>
 </body>
 </html>
+
