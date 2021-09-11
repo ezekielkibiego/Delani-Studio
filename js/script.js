@@ -3,7 +3,7 @@ $("#form").on('submit',function(event){
     var name = $("#name").val();
     var email = $("#email").val();
     var message = $("textarea#message").val();
-
+    
     if ($("#name").val() && $("#email").val()){
         alert ("Hi " + name + ", we have received your message. Thank you for reaching out to us.");
     }
@@ -11,6 +11,7 @@ $("#form").on('submit',function(event){
         alert("Please provide your correct name and email!");
     }
     $("#form")[0].reset();
+    
 
 });
 
