@@ -49,4 +49,14 @@ $(document).ready(function(){
     });
   });
 
+  $(document).ready(function(){
+    $(".work").mouseenter(function() {
+      $(".work").show();
+    }).mouseleave(function() {
+      $(".work").hide();
+    });
+  });
+  
+
+
  
