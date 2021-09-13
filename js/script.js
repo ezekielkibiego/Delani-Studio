@@ -49,13 +49,47 @@ $(document).ready(function(){
     });
   });
 
-  $(document).ready(function(){
-    $(".work").mouseenter(function() {
-      $(".work").show();
-    }).mouseleave(function() {
-      $(".work").hide();
-    });
+  $('.work1').mouseover(function() {
+    $('#port1').show();
+  }).mouseout(function() {
+    $('#port1').hide();
   });
+  $(".work2").mouseenter(function() {
+    $("#port2").show();
+  }).mouseleave(function() {
+    $("#port2").hide();
+  });
+  $(".work3").mouseenter(function() {
+    $("#port3").show();
+  }).mouseleave(function() {
+    $("#port3").hide();
+  });
+  $(".work4").mouseenter(function() {
+    $("#port4").show();
+  }).mouseleave(function() {
+    $("#port4").hide();
+  });
+  $(".work5").mouseenter(function() {
+    $("#port5").show();
+  }).mouseleave(function() {
+    $("#port5").hide();
+  });
+  $(".work6").mouseenter(function() {
+    $("#port6").show();
+  }).mouseleave(function() {
+    $("#port6").hide();
+  });
+  $(".work7").mouseenter(function() {
+    $("#port7").show();
+  }).mouseleave(function() {
+    $("#port7").hide();
+  });
+  $(".work8").mouseenter(function() {
+    $("#port8").show();
+  }).mouseleave(function() {
+    $("#port8").hide();
+  });
+
   
 
 
