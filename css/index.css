@@ -87,15 +87,17 @@ body{
     margin-top: -200px;
     background-color: black;
     opacity: 0.5;
-    border: 5px solid white;
-    border-radius: 20px;
+    border-top: 6px solid #5656d3;
+    border-bottom: 6px solid #5656d3;
+    border-radius: 50px;
     
 }
 #port1, #port2, #port3, #port4, #port5, #port6, #port7, #port8 {
     display: none;
+
 }
 .port{
-    padding: 50px;
+    padding: 50px
 
 }
 .contact-overlay{
