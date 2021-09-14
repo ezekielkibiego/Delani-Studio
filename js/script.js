@@ -8,7 +8,7 @@ $("#form").on('submit',function(event){
         alert ("Hi " + name + ", we have received your message. Thank you for reaching out to us.");
     }
     else {
-        alert("Please provide your correct name and email!");
+        alert("Please provide your correct email address!");
     }
    
     $("#form")[0].reset();
