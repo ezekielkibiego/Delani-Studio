@@ -33,6 +33,7 @@ No known Bugs yet
 <li>HTML</li>
 <li>CSS</li>
 <li>BOOTSTRAP</li>
+ <li>jQuery</li>
 </ul>
 
 ## BDD
