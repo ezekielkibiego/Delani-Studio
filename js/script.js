@@ -4,17 +4,15 @@ $("#form").on('submit',function(event){
     var email = $("#email").val();
     var message = $("textarea#message").val();
     
-    if ($("#name").val() && $("#email").val()){
+    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(form.email.value)){
         alert ("Hi " + name + ", we have received your message. Thank you for reaching out to us.");
     }
     else {
         alert("Please provide your correct name and email!");
     }
+   
     $("#form")[0].reset();
-    
-
 });
-
 
 $(document).ready(function(){
     $("#design-icon").click(function(){
